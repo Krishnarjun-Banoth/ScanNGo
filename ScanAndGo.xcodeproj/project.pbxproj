@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		DAB5FEF524D6CCEA002F8BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FEF424D6CCEA002F8BFD /* AppDelegate.swift */; };
 		DAB5FEF724D6CCEA002F8BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FEF624D6CCEA002F8BFD /* SceneDelegate.swift */; };
-		DAB5FEF924D6CCEA002F8BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FEF824D6CCEA002F8BFD /* ViewController.swift */; };
 		DAB5FEFC24D6CCEA002F8BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB5FEFA24D6CCEA002F8BFD /* Main.storyboard */; };
 		DAB5FEFE24D6CCEF002F8BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB5FEFD24D6CCEF002F8BFD /* Assets.xcassets */; };
 		DAB5FF0124D6CCEF002F8BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB5FEFF24D6CCEF002F8BFD /* LaunchScreen.storyboard */; };
+		DAB5FF1024D6CE39002F8BFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF0E24D6CE39002F8BFD /* Constants.swift */; };
+		DAB5FF1124D6CE39002F8BFD /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF0F24D6CE39002F8BFD /* AlertDisplayer.swift */; };
+		DAB5FF1424D6CE4E002F8BFD /* ImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF1324D6CE4E002F8BFD /* ImageView+Extensions.swift */; };
+		DAB5FF1624D6D2AE002F8BFD /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF1524D6D2AE002F8BFD /* QRScannerView.swift */; };
+		DAB5FF1824D6D69B002F8BFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF1724D6D69B002F8BFD /* HomeViewController.swift */; };
+		DAB5FF1A24D6D767002F8BFD /* QrData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF1924D6D767002F8BFD /* QrData.swift */; };
+		DAB5FF1E24D6D86D002F8BFD /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5FF1D24D6D86D002F8BFD /* ProductDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAB5FEF124D6CCEA002F8BFD /* ScanAndGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanAndGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB5FEF424D6CCEA002F8BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB5FEF624D6CCEA002F8BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAB5FEF824D6CCEA002F8BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB5FEFB24D6CCEA002F8BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAB5FEFD24D6CCEF002F8BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB5FF0024D6CCEF002F8BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB5FF0224D6CCEF002F8BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB5FF0E24D6CE39002F8BFD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DAB5FF0F24D6CE39002F8BFD /* AlertDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		DAB5FF1324D6CE4E002F8BFD /* ImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Extensions.swift"; sourceTree = "<group>"; };
+		DAB5FF1524D6D2AE002F8BFD /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		DAB5FF1724D6D69B002F8BFD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAB5FF1924D6D767002F8BFD /* QrData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrData.swift; sourceTree = "<group>"; };
+		DAB5FF1D24D6D86D002F8BFD /* ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		DAB5FEF324D6CCEA002F8BFD /* ScanAndGo */ = {
 			isa = PBXGroup;
 			children = (
+				DAB5FF1C24D6D842002F8BFD /* Features */,
+				DAB5FF1224D6CE4E002F8BFD /* Extensions */,
+				DAB5FF0D24D6CE39002F8BFD /* Utils */,
 				DAB5FEF424D6CCEA002F8BFD /* AppDelegate.swift */,
 				DAB5FEF624D6CCEA002F8BFD /* SceneDelegate.swift */,
-				DAB5FEF824D6CCEA002F8BFD /* ViewController.swift */,
 				DAB5FEFA24D6CCEA002F8BFD /* Main.storyboard */,
 				DAB5FEFD24D6CCEF002F8BFD /* Assets.xcassets */,
 				DAB5FEFF24D6CCEF002F8BFD /* LaunchScreen.storyboard */,
 				DAB5FF0224D6CCEF002F8BFD /* Info.plist */,
 			);
 			path = ScanAndGo;
+			sourceTree = "<group>";
+		};
+		DAB5FF0824D6CDE2002F8BFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF0B24D6CDFA002F8BFD /* Model */,
+				DAB5FF0A24D6CDF4002F8BFD /* View */,
+				DAB5FF0924D6CDEA002F8BFD /* ViewModel */,
+				DAB5FF1724D6D69B002F8BFD /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAB5FF0924D6CDEA002F8BFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAB5FF0A24D6CDF4002F8BFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF1524D6D2AE002F8BFD /* QRScannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAB5FF0B24D6CDFA002F8BFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF1924D6D767002F8BFD /* QrData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAB5FF0D24D6CE39002F8BFD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF0E24D6CE39002F8BFD /* Constants.swift */,
+				DAB5FF0F24D6CE39002F8BFD /* AlertDisplayer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAB5FF1224D6CE4E002F8BFD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF1324D6CE4E002F8BFD /* ImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DAB5FF1B24D6D838002F8BFD /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF1D24D6D86D002F8BFD /* ProductDetailsVC.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DAB5FF1C24D6D842002F8BFD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5FF0824D6CDE2002F8BFD /* Home */,
+				DAB5FF1B24D6D838002F8BFD /* Details */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB5FEF924D6CCEA002F8BFD /* ViewController.swift in Sources */,
 				DAB5FEF524D6CCEA002F8BFD /* AppDelegate.swift in Sources */,
 				DAB5FEF724D6CCEA002F8BFD /* SceneDelegate.swift in Sources */,
+				DAB5FF1E24D6D86D002F8BFD /* ProductDetailsVC.swift in Sources */,
+				DAB5FF1124D6CE39002F8BFD /* AlertDisplayer.swift in Sources */,
+				DAB5FF1624D6D2AE002F8BFD /* QRScannerView.swift in Sources */,
+				DAB5FF1A24D6D767002F8BFD /* QrData.swift in Sources */,
+				DAB5FF1424D6CE4E002F8BFD /* ImageView+Extensions.swift in Sources */,
+				DAB5FF1824D6D69B002F8BFD /* HomeViewController.swift in Sources */,
+				DAB5FF1024D6CE39002F8BFD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
